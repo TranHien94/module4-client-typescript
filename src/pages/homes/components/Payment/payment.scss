@@ -1,0 +1,98 @@
+.payment-container {
+    
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+
+    h2 {
+        font-size: 24px;
+        margin: 0 auto 20px;
+        
+    }
+
+    .shipping-info,
+    .payment-method {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+
+        h3 {
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        .required-fields {
+            label {
+                display: block;
+                margin-top: 10px;
+            }
+
+            input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+        
+        }
+
+        .promo-code {
+            label {
+                display: block;
+                margin-top: 10px;
+            }
+
+            input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+
+        .order-summary {
+            h4 {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+            .order-item {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 5px;
+
+                p {
+                    flex: 1;
+                }
+            }
+        }
+
+        .order-total {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-size: 18px;
+
+            p {
+                flex: 1;
+            }
+        }
+    }
+
+    .checkout-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
